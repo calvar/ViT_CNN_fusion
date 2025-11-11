@@ -1,0 +1,67 @@
+*.dat
+*.pth
+*.png
+*.pyc
+*.pyo
+.env
+
+# --- Large files & common heavy artifacts ---
+# model checkpoints / weights
+*.ckpt
+*.pth.tar
+*.pt
+*.h5
+*.pb
+*.sav
+
+# data files / archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.data
+*.csv
+*.tsv
+*.npz
+*.npy
+*.hdf5
+
+# images / videos / audio
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.flac
+*.mp3
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# datasets / folders
+/data/
+/datasets/
+/output/
+/checkpoints/
+/models/
+/logs/
+
+# Docker / environment images
+*.img
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints and outputs
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# backups
+*~
+*.bak
